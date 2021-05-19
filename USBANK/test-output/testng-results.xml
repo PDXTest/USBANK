@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-05-19T15:13:16 IST" name="Suite" finished-at="2021-05-19T15:13:35 IST" duration-ms="19364">
+    <groups>
+    </groups>
+    <test started-at="2021-05-19T15:13:16 IST" name="ChromeTest" finished-at="2021-05-19T15:13:24 IST" duration-ms="8417">
+      <class name="Wipro.com.USBANK.CrossBrowserANDParallelTesting">
+        <test-method signature="verifyHeaderValue(java.lang.String)[pri:0, instance:Wipro.com.USBANK.CrossBrowserANDParallelTesting@76ed1b7c]" started-at="2021-05-19T15:13:16 IST" name="verifyHeaderValue" finished-at="2021-05-19T15:13:24 IST" duration-ms="8371" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHeaderValue -->
+      </class> <!-- Wipro.com.USBANK.CrossBrowserANDParallelTesting -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2021-05-19T15:13:24 IST" name="FFTest" finished-at="2021-05-19T15:13:35 IST" duration-ms="10877">
+      <class name="Wipro.com.USBANK.CrossBrowserANDParallelTesting2">
+        <test-method signature="verifyHeaderValue(java.lang.String)[pri:0, instance:Wipro.com.USBANK.CrossBrowserANDParallelTesting2@5552768b]" started-at="2021-05-19T15:13:24 IST" name="verifyHeaderValue" finished-at="2021-05-19T15:13:35 IST" duration-ms="10874" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ff]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHeaderValue -->
+      </class> <!-- Wipro.com.USBANK.CrossBrowserANDParallelTesting2 -->
+    </test> <!-- FFTest -->
+  </suite> <!-- Suite -->
+</testng-results>
